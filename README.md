@@ -1,30 +1,32 @@
-# flutter_app_2022mt12447
+Steps for the App Set-up:
 
-A new Flutter project.
+1. Clone the App using below command
 
-## Getting Started
+git clone https://github.com/hemanth007bits/flutter_app_2022mt12447.git
 
-This project is a starting point for a Flutter application that follows the
-[simple app state management
-tutorial](https://flutter.dev/docs/development/data-and-backend/state-mgmt/simple).
+2. Import this into IDE like vs code or android studio
+3. run the below command.
 
-For help getting started with Flutter development, view the
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+flutter run -d chrome
 
-## Assets
+(you can choose any browser/emulator)
 
-The `assets` directory houses images, fonts, and any other files you want to
-include with your application.
+4. You'll see the app running on localhost.
 
-The `assets/images` directory contains [resolution-aware
-images](https://flutter.dev/docs/development/ui/assets-and-images#resolution-aware).
 
-## Localization
+App Settings:
 
-This project generates localized messages based on arb files found in
-the `lib/src/localization` directory.
 
-To support additional languages, please visit the tutorial on
-[Internationalizing Flutter
-apps](https://flutter.dev/docs/development/accessibility-and-localization/internationalization)
+1. Backend integration details are located under flutter_app_2022mt12447\lib\main.dart
+
+
+App features:
+
+1. The App landing page shows the datatable with 4 columns.
+Task, discription, created on,  status
+
+2. status column is a boolean which states the status of the task, true for completed and false for pending.
+
+3. Task is made sortable based on the creation date.
+
+All the APP screenshots are available in the flutter_app_2022mt12447\screenshots folder
